@@ -1,0 +1,77 @@
+
+.figtree-Figtree {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500, 800;
+  font-style: normal;
+}
+
+html, body{
+    background: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Figtree';
+    color: hsl(0, 0%, 7%);
+}
+
+main{
+    background: hsl(0, 0%, 100%);
+    border-radius: 1.3em;
+    width: min(21em, max(50%, 19em));
+    padding: 1.4em;
+    box-shadow: 0.6em .5em;
+    border: 0.12em solid black;
+}
+
+#miniatura{
+    border-radius: 0.6em;
+    height: 11.43em;
+    width: 100%;
+    margin-bottom: 1.4em;
+    object-fit: cover;
+}
+
+#learningInfo{
+    background: hsl(47, 88%, 63%);
+    width: min-content;
+    padding-left: .9em;
+    padding-right: .9em;
+    padding-bottom: .4em;
+    padding-top: .4em;
+    border-radius: .2em;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+h4{
+    font-size: 16px;
+    font-weight:500;
+}
+
+h1{
+    font-size: 20px;
+}
+
+h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor:pointer;
+}
+
+p{
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+
+#userFoto{
+    width: 1.8em;
+    clip-path: circle();
+}
+
+#userName{
+    font-weight: 800;
+    font-size: 13px;
+    padding-left: .5em;
+    padding-bottom: .35em;
+}
